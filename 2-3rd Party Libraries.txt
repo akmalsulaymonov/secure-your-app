@@ -1,0 +1,11 @@
+3rd Party Libraries:
+
+// audit package.json
+> npm i -g nsp
+> nsp check
+
+
+// audit node_modules directory 
+> npm i -g snyk
+> snyk test
+> snyk auth			// connect your github account

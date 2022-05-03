@@ -1,0 +1,18 @@
+Guideline:
+
+1) Injections
+2) 3rd Party Libraries
+3) Logging
+4) HTTPS Everywhere
+5) XSS + CSRF
+6) Code Secrets
+7) Secure Headers
+8) Access Control
+9) Data Management
+10) Don’t Trust Anyone
+11) Authentication
+
+
+
+Recommended to read:
+https://owasp.org/www-project-top-ten/

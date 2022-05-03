@@ -1,0 +1,12 @@
+Injections:
+
+
+Inputs:
+' or 1=1--
+'; DROP TABLE users; --
+
+
+Solutions:
+- Sanitize input
+- Parametrize queries
+- Knex.js or other ORMS

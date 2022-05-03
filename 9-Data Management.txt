@@ -1,0 +1,13 @@
+Data Management:
+
+-----
+
+Backup your system
+
+-----
+
+bcrypt, scrypt, Aragon2
+
+pgcrypto - encrypt a few colomns
+
+-----

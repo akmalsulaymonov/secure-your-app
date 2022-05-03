@@ -1,0 +1,21 @@
+Access Control:
+
+Principal of leatest privilage
+
+-----
+
+https://www.npmjs.com/package/cors
+> npm install cors
+
+-----
+
+const whitelist = ['http://example1.com', 'http://example2.com']
+const corsOptions = {
+  origin: (origin, callback) => {
+    if (whitelist.indexOf(origin) !== -1) {
+      callback(null, true)
+    } else {
+      callback(new Error())
+    }
+  }
+}

